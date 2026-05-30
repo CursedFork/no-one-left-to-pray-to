@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#4a2878"/>
+      <stop offset="100%" stop-color="#0d0818"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6b3a8c" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#6b3a8c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="shadowGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9060b8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#9060b8" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="circle">
+      <circle cx="100" cy="100" r="96"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="100" cy="100" r="100" fill="#060310"/>
+  <circle cx="100" cy="100" r="96" fill="url(#bg)"/>
+  <circle cx="100" cy="70" r="70" fill="url(#glow)"/>
+  <!-- Extra ambient violet glow for arcane feel -->
+  <circle cx="100" cy="100" r="96" fill="url(#shadowGlow)"/>
+
+  <g clip-path="url(#circle)">
+    <!-- Mage robes -->
+    <ellipse cx="100" cy="175" rx="46" ry="28" fill="#060310" opacity="0.8"/>
+    <path d="M63 200 Q65 150 74 135 Q87 122 100 120 Q113 122 126 135 Q135 150 137 200Z" fill="#1a0d28"/>
+    <!-- Robe details -->
+    <path d="M74 135 Q68 126 64 115 Q74 109 79 121Z" fill="#220f35"/>
+    <path d="M126 135 Q132 126 136 115 Q126 109 121 121Z" fill="#220f35"/>
+    <!-- Arcane glyph on chest (faint) -->
+    <circle cx="100" cy="145" r="8" fill="none" stroke="#6b3a8c" stroke-width="0.8" opacity="0.4"/>
+    <path d="M100 137 L102 143 L108 143 L103 147 L105 153 L100 149 L95 153 L97 147 L92 143 L98 143Z" fill="#6b3a8c" opacity="0.25"/>
+    <!-- Shadar-kai neck (pale grey) -->
+    <rect x="92" y="110" width="16" height="13" rx="4" fill="#a8a0c0"/>
+    <!-- Head (shadar-kai — pale, slightly grey-toned) -->
+    <ellipse cx="100" cy="90" rx="27" ry="32" fill="#b0a8c8"/>
+    <ellipse cx="100" cy="88" rx="22" ry="26" fill="#beb8d0"/>
+    <!-- Shadow realm marking — dark patches under eyes -->
+    <ellipse cx="89" cy="89" rx="7" ry="4" fill="#8070a0" opacity="0.35"/>
+    <ellipse cx="111" cy="89" rx="7" ry="4" fill="#8070a0" opacity="0.35"/>
+    <!-- Eyes (ancient, tired — violet tint) -->
+    <ellipse cx="89" cy="86" rx="5.5" ry="4" fill="#0d0818"/>
+    <ellipse cx="111" cy="86" rx="5.5" ry="4" fill="#0d0818"/>
+    <ellipse cx="89" cy="86" rx="3" ry="2.8" fill="#7050a0"/>
+    <ellipse cx="111" cy="86" rx="3" ry="2.8" fill="#7050a0"/>
+    <circle cx="90" cy="85" r="0.9" fill="white" opacity="0.5"/>
+    <circle cx="112" cy="85" r="0.9" fill="white" opacity="0.5"/>
+    <!-- Brow (slightly weary) -->
+    <path d="M83 80 Q89 77 94 80" stroke="#9080b0" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <path d="M106 80 Q111 77 117 80" stroke="#9080b0" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M97 92 Q100 97 103 92" stroke="#9080b0" stroke-width="1.2" fill="none"/>
+    <!-- Lips (slight, knowing expression) -->
+    <path d="M93 101 Q100 103 107 101" stroke="#9080b0" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Hair (white/silver — Shadar-kai often pale or silver) -->
+    <path d="M73 70 Q100 54 127 70 Q116 57 100 53 Q84 57 73 70Z" fill="#e8e0f0"/>
+    <!-- Hair falling to sides -->
+    <path d="M73 70 Q70 82 72 96" fill="none" stroke="#e0d8f0" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+    <path d="M127 70 Q130 82 128 96" fill="none" stroke="#e0d8f0" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+    <!-- Floating arcane motes -->
+    <circle cx="68" cy="75" r="2" fill="#9060c0" opacity="0.6"/>
+    <circle cx="135" cy="80" r="1.5" fill="#9060c0" opacity="0.5"/>
+    <circle cx="72" cy="115" r="1.2" fill="#7040a0" opacity="0.4"/>
+    <circle cx="132" cy="110" r="1.8" fill="#8050b0" opacity="0.45"/>
+  </g>
+
+  <circle cx="100" cy="100" r="96" fill="none" stroke="#5a3a7a" stroke-width="2" opacity="0.8"/>
+  <circle cx="100" cy="100" r="99" fill="none" stroke="#5a3a7a" stroke-width="0.5" opacity="0.3"/>
+  <text x="100" y="193" text-anchor="middle" font-family="serif" font-size="8" fill="#5a3a7a" opacity="0.5">YAOSHI</text>
+</svg>

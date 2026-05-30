@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#3a4838"/>
+      <stop offset="100%" stop-color="#0e130d"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3d4a3a" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3d4a3a" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="circle">
+      <circle cx="100" cy="100" r="96"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="100" cy="100" r="100" fill="#080d08"/>
+  <circle cx="100" cy="100" r="96" fill="url(#bg)"/>
+  <circle cx="100" cy="70" r="70" fill="url(#glow)"/>
+
+  <g clip-path="url(#circle)">
+    <!-- Body (fighter, broad) -->
+    <ellipse cx="100" cy="175" rx="54" ry="30" fill="#080d08" opacity="0.8"/>
+    <path d="M56 200 Q58 142 68 128 Q83 116 100 114 Q117 116 132 128 Q142 142 144 200Z" fill="#1a2018"/>
+    <!-- Armor plates -->
+    <path d="M68 128 Q62 120 58 110 Q68 104 76 116Z" fill="#253025"/>
+    <path d="M132 128 Q138 120 142 110 Q132 104 124 116Z" fill="#253025"/>
+    <rect x="82" y="114" width="36" height="20" rx="2" fill="#202820"/>
+    <!-- Tiefling neck (slightly different tone) -->
+    <rect x="92" y="107" width="16" height="14" rx="3" fill="#7a8a70"/>
+    <!-- Head (tiefling, humanoid but with horns) -->
+    <ellipse cx="100" cy="88" rx="29" ry="32" fill="#8a9880"/>
+    <ellipse cx="100" cy="87" rx="24" ry="26" fill="#96a88a"/>
+    <!-- HORNS — key tiefling feature -->
+    <path d="M80 68 Q72 48 76 36 Q82 50 84 68Z" fill="#4a5848" stroke="#3a4838" stroke-width="0.5"/>
+    <path d="M120 68 Q128 48 124 36 Q118 50 116 68Z" fill="#4a5848" stroke="#3a4838" stroke-width="0.5"/>
+    <!-- Horn texture lines -->
+    <line x1="78" y1="62" x2="77" y2="48" stroke="#3a4838" stroke-width="0.8" opacity="0.5"/>
+    <line x1="122" y1="62" x2="123" y2="48" stroke="#3a4838" stroke-width="0.8" opacity="0.5"/>
+    <!-- Eyes (tiefling, solid color irises) -->
+    <ellipse cx="88" cy="85" rx="5.5" ry="4.5" fill="#0a0f0a"/>
+    <ellipse cx="112" cy="85" rx="5.5" ry="4.5" fill="#0a0f0a"/>
+    <ellipse cx="88" cy="85" rx="3" ry="3" fill="#3a5a38"/>
+    <ellipse cx="112" cy="85" rx="3" ry="3" fill="#3a5a38"/>
+    <circle cx="89" cy="84" r="0.8" fill="white" opacity="0.4"/>
+    <circle cx="113" cy="84" r="0.8" fill="white" opacity="0.4"/>
+    <!-- Brow (stern, furrowed) -->
+    <path d="M82 79 Q88 76 93 80" stroke="#6a7860" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M107 80 Q112 76 118 79" stroke="#6a7860" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M97 91 Q100 96 103 91" stroke="#7a8870" stroke-width="1.2" fill="none"/>
+    <!-- Lips (closed, set) -->
+    <path d="M92 101 Q100 99 108 101" stroke="#7a8870" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Tail hint -->
+    <path d="M100 190 Q115 175 118 165 Q122 155 116 150" stroke="#4a5848" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <!-- Hair (short, dark) -->
+    <path d="M71 72 Q100 58 129 72 Q118 60 100 56 Q82 60 71 72Z" fill="#1a2018"/>
+  </g>
+
+  <circle cx="100" cy="100" r="96" fill="none" stroke="#3d4a3a" stroke-width="2" opacity="0.8"/>
+  <circle cx="100" cy="100" r="99" fill="none" stroke="#3d4a3a" stroke-width="0.5" opacity="0.3"/>
+  <text x="100" y="193" text-anchor="middle" font-family="serif" font-size="8" fill="#3d4a3a" opacity="0.5">DEMETER</text>
+</svg>

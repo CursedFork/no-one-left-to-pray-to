@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2a3858"/>
+      <stop offset="100%" stop-color="#080d18"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3a4a6a" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a4a6a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#c8d8f0" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#c8d8f0" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="circle">
+      <circle cx="100" cy="100" r="96"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="100" cy="100" r="100" fill="#050810"/>
+  <circle cx="100" cy="100" r="96" fill="url(#bg)"/>
+  <circle cx="100" cy="70" r="70" fill="url(#glow)"/>
+  <circle cx="100" cy="60" r="55" fill="url(#moonGlow)"/>
+
+  <g clip-path="url(#circle)">
+    <!-- Samurai-style armor / body -->
+    <ellipse cx="100" cy="175" rx="50" ry="28" fill="#050810" opacity="0.8"/>
+    <path d="M60 200 Q62 144 72 130 Q86 117 100 115 Q114 117 128 130 Q138 144 140 200Z" fill="#121828"/>
+    <!-- Armor plates (samurai aesthetic) -->
+    <rect x="80" y="115" width="40" height="22" rx="2" fill="#1a2438"/>
+    <rect x="80" y="115" width="40" height="6" rx="1" fill="#243050"/>
+    <rect x="80" y="127" width="40" height="5" rx="1" fill="#1e2a44"/>
+    <!-- Shoulder guards -->
+    <path d="M72 130 Q64 122 60 112 Q70 107 77 118Z" fill="#1e2a44"/>
+    <path d="M128 130 Q136 122 140 112 Q130 107 123 118Z" fill="#1e2a44"/>
+    <!-- Izanagi mon / crest on chest (faint circle) -->
+    <circle cx="100" cy="128" r="7" fill="none" stroke="#3a4a6a" stroke-width="1" opacity="0.5"/>
+    <circle cx="100" cy="128" r="3" fill="#3a4a6a" opacity="0.3"/>
+    <!-- Drow neck (deep charcoal) -->
+    <rect x="92" y="108" width="16" height="13" rx="4" fill="#3a3050"/>
+    <!-- Head (Drow — dark blue-grey skin) -->
+    <ellipse cx="100" cy="89" rx="28" ry="32" fill="#3a3050"/>
+    <ellipse cx="100" cy="88" rx="23" ry="26" fill="#423860"/>
+    <!-- Pointed ears (elven) -->
+    <path d="M72 82 Q64 77 66 68 Q73 73 75 82Z" fill="#3a3050"/>
+    <path d="M128 82 Q136 77 134 68 Q127 73 125 82Z" fill="#3a3050"/>
+    <!-- Drow eyes — red (characteristic) -->
+    <ellipse cx="88" cy="85" rx="5.5" ry="4" fill="#0a0510"/>
+    <ellipse cx="112" cy="85" rx="5.5" ry="4" fill="#0a0510"/>
+    <ellipse cx="88" cy="85" rx="3.2" ry="2.8" fill="#c02020"/>
+    <ellipse cx="112" cy="85" rx="3.2" ry="2.8" fill="#c02020"/>
+    <circle cx="89" cy="84" r="0.9" fill="white" opacity="0.5"/>
+    <circle cx="113" cy="84" r="0.9" fill="white" opacity="0.5"/>
+    <!-- Brow (composed, arrogant set) -->
+    <path d="M82 78 Q88 75 93 78" stroke="#6050a0" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+    <path d="M107 78 Q112 75 118 78" stroke="#6050a0" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M97 91 Q100 96 103 91" stroke="#5a4890" stroke-width="1.2" fill="none"/>
+    <!-- Lips (controlled, arrogant slight curl) -->
+    <path d="M92 101 Q96 103 100 102 Q104 103 108 101" stroke="#5a4890" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- White Drow hair (iconic) -->
+    <path d="M72 72 Q100 55 128 72 Q116 59 100 55 Q84 59 72 72Z" fill="#e8e8f8"/>
+    <!-- Hair falling to sides, swept back (samurai top-knot hint) -->
+    <path d="M72 72 Q68 84 70 98" fill="none" stroke="#e0e0f0" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+    <path d="M128 72 Q132 84 130 98" fill="none" stroke="#e0e0f0" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+    <!-- Top-knot -->
+    <ellipse cx="100" cy="60" rx="10" ry="6" fill="#e8e8f8"/>
+    <rect x="97" y="54" width="6" height="10" rx="3" fill="#d8d8f0"/>
+    <!-- Sword pommel hint at shoulder -->
+    <circle cx="136" cy="118" r="4" fill="#c9a14a" opacity="0.6"/>
+    <rect x="134" y="118" width="4" height="12" rx="1" fill="#8a7030" opacity="0.5"/>
+  </g>
+
+  <circle cx="100" cy="100" r="96" fill="none" stroke="#3a4a6a" stroke-width="2" opacity="0.8"/>
+  <circle cx="100" cy="100" r="99" fill="none" stroke="#3a4a6a" stroke-width="0.5" opacity="0.3"/>
+  <text x="100" y="193" text-anchor="middle" font-family="serif" font-size="8" fill="#3a4a6a" opacity="0.5">IZANAGI</text>
+</svg>

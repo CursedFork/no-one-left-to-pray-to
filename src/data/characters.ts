@@ -19,7 +19,7 @@ export const characters: Character[] = [
       'Short-tempered',
       'Unreasonable anger at storms',
     ],
-    portrait: null,
+    portrait: '/images/characters/kutada.svg',
     accentColor: '#4a5a6a',
     biography: `Kutada was born with violence in her blood — a truth her mother tried desperately to outrun. Her mother, a human arena fighter who had won her freedom through a decade of bloodshed, had hoped that settling in a quiet border town would be enough to give her half-orc daughter a different life. It wasn't. Kutada could feel the rage before she could name it: a live coal behind her sternum that flared whenever someone looked at her like she was lesser, whenever a storm rolled in off the mountains, whenever she was told to be still.
 
@@ -51,21 +51,21 @@ The storms still make her furious. She suspects they always will. She suspects t
       'Gambling addiction',
       'Relentless need to prove strength',
     ],
-    portrait: null,
+    portrait: '/images/characters/kuxtal-tun.svg',
     accentColor: '#7a2020',
-    biography: `Kuxtal Tun grew up in a small elven village far from the political centers of the world — the kind of place where gossip travels faster than news and the worst thing that had happened in living memory was a bad harvest. He was known for his quick laugh and his inability to walk past a card game without sitting down. The gambling was a joke then. Later it would be one of the few anchors he had left.
+    biography: `Kuxtal Tun grew up in a small elven village far from the political centers of the world — the kind of place where gossip travels faster than news and the worst thing that had happened in living memory was a bad harvest. She was known for her quick laugh and her inability to walk past a card game without sitting down. The gambling was a joke then. Later it would be one of the few anchors she had left.
 
-He was twenty-three when the cult came. They did not announce themselves as such. They came as traders, then as guests, then in the night with binding chains and bladed instruments and a theology that required suffering as its sacrament. They took eleven people from the village. Kuxtal was one of them. He does not speak about what the years inside the cult's sanctum were like. The scars on his forearms speak for him. The way he reacts when he hears chains — the immediate, total shutdown of rational thought, the rage that takes over like a second person stepping into his skin — tells the rest.
+She was twenty-three when the cult came. They did not announce themselves as such. They came as traders, then as guests, then in the night with binding chains and bladed instruments and a theology that required suffering as its sacrament. They took eleven people from the village. Kuxtal was one of them. She does not speak about what the years inside the cult's sanctum were like. The scars on her forearms speak for her. The way she reacts when she hears chains — the immediate, total shutdown of rational thought, the rage that takes over like a second person stepping into her skin — tells the rest.
 
-Itzamna, a Mayan god of healing and medicine, intervened not through dramatic power but through a series of small graces: a guard who fell asleep at the wrong moment, a lock that had been oiled by the wrong hand, a corridor that was inexplicably empty when it should not have been. Kuxtal walked out. He does not call it divine favor. He calls it luck, because calling it anything else would require acknowledging a debt he doesn't know how to carry.
+Itzamna, a Mayan god of healing and medicine, intervened not through dramatic power but through a series of small graces: a guard who fell asleep at the wrong moment, a lock that had been oiled by the wrong hand, a corridor that was inexplicably empty when it should not have been. Kuxtal walked out. She does not call it divine favor. She calls it luck, because calling it anything else would require acknowledging a debt she doesn't know how to carry.
 
-He wandered for years after, fighting for coin, gambling away the coin, fighting for more. He learned the warlock's pact somewhere in that period — a deal with something infernal in exchange for power, the specifics of which he discusses only when pressed, and even then only in fragments. The power felt like control after years of having none. He held onto it.
+She wandered for years after, fighting for coin, gambling away the coin, fighting for more. She learned the warlock's pact somewhere in that period — a deal with something infernal in exchange for power, the specifics of which she discusses only when pressed, and even then only in fragments. The power felt like control after years of having none. She held onto it.
 
-The gambling bar where he met Velkyn Kensek was not memorable in any particular way. The game was rigged; he noticed after three hands; he stayed anyway because he had nothing else to do and because the drow across the table had an interesting face. When Velkyn offered him a different kind of game — infiltrating a cult, raiding a sanctum, ending something that deserved to end — Kuxtal said yes before the offer was finished.
+The gambling bar where she met Velkyn Kensek was not memorable in any particular way. The game was rigged; she noticed after three hands; she stayed anyway because she had nothing else to do and because the drow across the table had an interesting face. When Velkyn offered her a different kind of game — infiltrating a cult, raiding a sanctum, ending something that deserved to end — Kuxtal said yes before the offer was finished.
 
-The cult raid went sideways. The relationship that formed in the aftermath of near-death did not. Kuxtal and Velkyn have a history now, which is not the same as an easy relationship. Kuxtal is reckless in ways that alarm even people used to recklessness. He picks fights with things larger than he is and calls it assessment. He doubles down when a sensible person would walk away. The gambling never really stopped — it just changed tables.
+The cult raid went sideways. The relationship that formed in the aftermath of near-death did not. Kuxtal and Velkyn have a history now, which is not the same as an easy relationship. Kuxtal is reckless in ways that alarm even people used to recklessness. She picks fights with things larger than she is and calls it assessment. She doubles down when a sensible person would walk away. The gambling never really stopped — it just changed tables.
 
-What drives him now is not revenge in the clean sense. It is more accurate to say he carries something inside that needs somewhere to go, a weight of accumulated suffering that has no release except forward motion. He intends to find the god behind the cult's theology, the divine presence that gave the torturers their justification, and end that justification at its source. He suspects this will not actually fix what is broken in him. He intends to do it anyway.`,
+What drives her now is not revenge in the clean sense. It is more accurate to say she carries something inside that needs somewhere to go, a weight of accumulated suffering that has no release except forward motion. She intends to find the god behind the cult's theology, the divine presence that gave the torturers their justification, and end that justification at its source. She suspects this will not actually fix what is broken in her. She intends to do it anyway.`,
   },
 
   {
@@ -85,7 +85,7 @@ What drives him now is not revenge in the clean sense. It is more accurate to sa
       'Independent — won\'t accept help',
       'Avoids casual interaction',
     ],
-    portrait: null,
+    portrait: '/images/characters/skavir-xarakas.svg',
     accentColor: '#3d4a3a',
     biography: `The farm where Skavir Xarakas grew up sat at the high end of a mountain valley where the soil was thin and the seasons were short and the neighbors were two hours away on a clear day. His family worked it anyway — his father, a tiefling who had come to the mountains to avoid the complications of living among people who feared tieflings, and his younger brother, who inherited their father's easy laugh. His mother was a different matter. She had disappeared before Skavir's memory had fully formed, gone to explore the underplanes according to his father, though exactly where or why was a story that changed depending on how much his father had drunk.
 
@@ -120,7 +120,7 @@ He does not discuss this goal casually. He does not discuss much casually. If yo
       'Nihilistic from immortality',
       'Guilt from past mistakes',
     ],
-    portrait: null,
+    portrait: '/images/characters/tian-rui.svg',
     accentColor: '#5a3a7a',
     dndBeyondLink: 'https://www.dndbeyond.com/characters/160037999',
     biography: `There is a particular kind of exhaustion that does not come from a lack of sleep. Tian-Rui has had more sleep than most beings will accumulate across all their lives combined. The exhaustion he carries is the exhaustion of having seen everything repeat — different names, different faces, the same shapes of tragedy — and having survived all of it through no particular virtue of his own.
@@ -156,7 +156,7 @@ He goes by Ray with people he doesn't want to explain himself to, which is most 
       'Arrogant',
       'Low self-esteem',
     ],
-    portrait: null,
+    portrait: '/images/characters/velkyn-kensek.svg',
     accentColor: '#3a4a6a',
     biography: `The drow army that operates beneath the city of Inaba is not an organization most surface-dwellers know exists, which is precisely the point. Velkyn Kensek served in it for forty-three years, first as infantry, then as a field commander with the kind of reputation that is built on outcomes rather than charm. He was good at the work. He was not good at the hours between the work, when the qualities that made him effective in a fight — the aggression, the pride, the willingness to stake more than he could afford — turned inward and spent themselves on card games and dice in underground establishments that had the good sense not to ask questions.
 
@@ -164,7 +164,7 @@ The gambling bar was in a tunnel district two levels below Inaba's main thorough
 
 That was Kuxtal Tun. The game lasted three hours. By the end of it they had established that they were both looking for a cult, that their reasons were different, and that neither of them was in a position to accomplish it alone. The cult raid was planned over the following week in a series of conversations conducted in that bar and two others like it, neither of them fully trusting the other, both of them proceeding anyway because trust is expensive and neither of them had any better options.
 
-The raid went wrong in the way that raids planned in bars tend to go wrong — not catastrophically but enough that they nearly died twice before they were out. They got Kuxtal free from the situation he'd been in. The cost was that Velkyn spent three weeks recovering from a wound that should have killed him and didn't, which he attributes to stubbornness, and which Kuxtal attributes to a soldier's inability to die on anyone's schedule but his own.
+The raid went wrong in the way that raids planned in bars tend to go wrong — not catastrophically but enough that they nearly died twice before they were out. They got Kuxtal free from the situation she'd been in. The cost was that Velkyn spent three weeks recovering from a wound that should have killed him and didn't, which he attributes to stubbornness, and which Kuxtal attributes to a soldier's inability to die on anyone's schedule but his own.
 
 The relationship rebuilt itself slowly over the following years, unevenly, with setbacks corresponding to Velkyn's worst gambling runs and Kuxtal's worst PTSD episodes. It is not a clean relationship. It is the kind of relationship that survives because both people are too stubborn to let it die and too honest with each other for it to become something comfortable and false.
 
