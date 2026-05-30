@@ -19,7 +19,7 @@ export const characters: Character[] = [
       'Short-tempered',
       'Unreasonable anger at storms',
     ],
-    portrait: '/images/characters/kutada.jpg',
+    portrait: '/images/characters/kutada.png',
     accentColor: '#4a5a6a',
     biography: `Kutada was born with violence in her blood — a truth her mother tried desperately to outrun. Her mother, a human arena fighter who had won her freedom through a decade of bloodshed, had hoped that settling in a quiet border town would be enough to give her half-orc daughter a different life. It wasn't. Kutada could feel the rage before she could name it: a live coal behind her sternum that flared whenever someone looked at her like she was lesser, whenever a storm rolled in off the mountains, whenever she was told to be still.
 
@@ -51,7 +51,7 @@ The storms still make her furious. She suspects they always will. She suspects t
       'Gambling addiction',
       'Relentless need to prove strength',
     ],
-    portrait: '/images/characters/kuxtal-tun.jpg',
+    portrait: '/images/characters/kuxtal-tun.png',
     accentColor: '#7a2020',
     biography: `Kuxtal Tun grew up in a small elven village far from the political centers of the world — the kind of place where gossip travels faster than news and the worst thing that had happened in living memory was a bad harvest. She was known for her quick laugh and her inability to walk past a card game without sitting down. The gambling was a joke then. Later it would be one of the few anchors she had left.
 
@@ -85,7 +85,7 @@ What drives her now is not revenge in the clean sense. It is more accurate to sa
       'Independent — won\'t accept help',
       'Avoids casual interaction',
     ],
-    portrait: '/images/characters/skavir-xarakas.jpg',
+    portrait: '/images/characters/skavir-xarakas.png',
     accentColor: '#3d4a3a',
     biography: `The farm where Skavir Xarakas grew up sat at the high end of a mountain valley where the soil was thin and the seasons were short and the neighbors were two hours away on a clear day. His family worked it anyway — his father, a tiefling who had come to the mountains to avoid the complications of living among people who feared tieflings, and his younger brother, who inherited their father's easy laugh. His mother was a different matter. She had disappeared before Skavir's memory had fully formed, gone to explore the underplanes according to his father, though exactly where or why was a story that changed depending on how much his father had drunk.
 
@@ -120,7 +120,7 @@ He does not discuss this goal casually. He does not discuss much casually. If yo
       'Nihilistic from immortality',
       'Guilt from past mistakes',
     ],
-    portrait: '/images/characters/tian-rui.jpg',
+    portrait: '/images/characters/tian-rui.png',
     accentColor: '#5a3a7a',
     dndBeyondLink: 'https://www.dndbeyond.com/characters/160037999',
     biography: `There is a particular kind of exhaustion that does not come from a lack of sleep. Tian-Rui has had more sleep than most beings will accumulate across all their lives combined. The exhaustion he carries is the exhaustion of having seen everything repeat — different names, different faces, the same shapes of tragedy — and having survived all of it through no particular virtue of his own.
@@ -156,7 +156,7 @@ He goes by Ray with people he doesn't want to explain himself to, which is most 
       'Arrogant',
       'Low self-esteem',
     ],
-    portrait: '/images/characters/velkyn-kensek.jpg',
+    portrait: '/images/characters/velkyn-kensek.png',
     accentColor: '#3a4a6a',
     biography: `The drow army that operates beneath the city of Inaba is not an organization most surface-dwellers know exists, which is precisely the point. Velkyn Kensek served in it for forty-three years, first as infantry, then as a field commander with the kind of reputation that is built on outcomes rather than charm. He was good at the work. He was not good at the hours between the work, when the qualities that made him effective in a fight — the aggression, the pride, the willingness to stake more than he could afford — turned inward and spent themselves on card games and dice in underground establishments that had the good sense not to ask questions.
 
