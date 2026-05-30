@@ -1,0 +1,91 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-bg-base: #1a1410;
+  --color-bg-panel: #241c17;
+  --color-parchment: #e8dcc4;
+  --color-parchment-dark: #c9b896;
+  --color-ink: #1a1410;
+  --color-ink-muted: #5a4a3a;
+  --color-accent-blood: #8b1e1e;
+  --color-accent-gold: #c9a14a;
+  --color-accent-violet: #6b3a8c;
+  --color-accent-bone: #d4c9a8;
+
+  --font-display: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #1a1410;
+  color: #e8dcc4;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Parchment paper-grain texture overlay */
+.parchment-grain {
+  position: relative;
+}
+.parchment-grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23noise)' opacity='0.06'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  mix-blend-mode: multiply;
+  border-radius: inherit;
+}
+.parchment-grain > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Drop-cap for long-form prose */
+.drop-cap::first-letter {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  float: left;
+  line-height: 0.75;
+  margin-right: 0.15em;
+  margin-top: 0.12em;
+  color: #8b1e1e;
+}
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid #c9a14a;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #1a1410; }
+::-webkit-scrollbar-thumb { background: #5a4a3a; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #c9a14a; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
