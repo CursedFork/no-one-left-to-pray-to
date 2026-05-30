@@ -6,38 +6,9 @@ interface CharacterCardProps {
   character: Character;
 }
 
-function Portrait({ character }: { character: Character }) {
+export default function CharacterCard({ character }: CharacterCardProps) {
   const initials = character.name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
 
-  if (character.portrait) {
-    return (
-      <img
-        src={character.portrait}
-        alt={character.name}
-        className="w-full h-full object-cover"
-        onError={(e) => {
-          const target = e.currentTarget;
-          target.style.display = 'none';
-          const parent = target.parentElement;
-          if (parent) {
-            parent.innerHTML = `<span class="text-3xl font-bold" style="font-family:'Cinzel',Georgia,serif;color:${character.accentColor}">${initials}</span>`;
-          }
-        }}
-      />
-    );
-  }
-
-  return (
-    <span
-      className="text-3xl font-bold"
-      style={{ fontFamily: "'Cinzel', Georgia, serif", color: character.accentColor }}
-    >
-      {initials}
-    </span>
-  );
-}
-
-export default function CharacterCard({ character }: CharacterCardProps) {
   return (
     <motion.div
       whileHover={{ y: -4 }}
@@ -48,19 +19,35 @@ export default function CharacterCard({ character }: CharacterCardProps) {
         className="block bg-bg-panel border border-accent-gold/20 rounded-sm overflow-hidden group hover:border-accent-gold/50 transition-colors duration-200"
         style={{ boxShadow: '0 2px 12px rgba(26,20,16,0.5)' }}
       >
-        {/* Portrait */}
-        <div
-          className="relative h-48 flex items-center justify-center overflow-hidden"
-          style={{ backgroundColor: `${character.accentColor}15` }}
-        >
-          <div
-            className="w-28 h-28 rounded-full flex items-center justify-center overflow-hidden border-2 transition-colors duration-200"
-            style={{ borderColor: `${character.accentColor}60`, background: `${character.accentColor}20` }}
-          >
-            <Portrait character={character} />
-          </div>
-          {/* Accent stripe at top */}
-          <div className="absolute top-0 left-0 right-0 h-1" style={{ backgroundColor: character.accentColor }} />
+        {/* Portrait — full bleed art */}
+        <div className="relative h-72 overflow-hidden">
+          <div className="absolute top-0 left-0 right-0 h-1 z-10" style={{ backgroundColor: character.accentColor }} />
+          {character.portrait ? (
+            <>
+              <img
+                src={character.portrait}
+                alt={character.name}
+                className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                onError={(e) => {
+                  const t = e.currentTarget as HTMLImageElement;
+                  t.style.display = 'none';
+                }}
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-bg-panel via-bg-panel/30 to-transparent" />
+            </>
+          ) : (
+            <div
+              className="w-full h-full flex items-center justify-center"
+              style={{ backgroundColor: `${character.accentColor}15` }}
+            >
+              <span
+                className="text-5xl font-bold"
+                style={{ fontFamily: "'Cinzel', Georgia, serif", color: character.accentColor }}
+              >
+                {initials}
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Info */}
