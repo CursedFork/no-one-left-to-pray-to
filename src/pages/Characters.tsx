@@ -23,6 +23,15 @@ export default function Characters() {
         >
           The Party
         </h1>
+
+        <p
+          className="mt-5 max-w-xl mx-auto text-sm italic leading-relaxed text-parchment-dark/45"
+          style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: '1.05rem' }}
+        >
+          These records are bound by the same covenant that binds their subjects. Each page opens
+          only when the god that holds it loosens their grip — which is to say, when they no longer
+          can. Slay the patron. Claim the page.
+        </p>
       </header>
 
       <Divider />

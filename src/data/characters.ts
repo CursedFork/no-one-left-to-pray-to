@@ -161,7 +161,7 @@ He goes by Ray with people he doesn't want to explain himself to, which is most 
       'Low self-esteem',
     ],
     portrait: '/images/characters/velkyn-kensek.png',
-    unlocked: false,
+    unlocked: true,
     accentColor: '#3a4a6a',
     biography: `The drow army that operates beneath the city of Inaba is not an organization most surface-dwellers know exists, which is precisely the point. Velkyn Kensek served in it for forty-three years, first as infantry, then as a field commander with the kind of reputation that is built on outcomes rather than charm. He was good at the work. He was not good at the hours between the work, when the qualities that made him effective in a fight — the aggression, the pride, the willingness to stake more than he could afford — turned inward and spent themselves on card games and dice in underground establishments that had the good sense not to ask questions.
 
