@@ -34,7 +34,7 @@ export const magicItems: MagicItem[] = [
     rarity: 'Artifact',
     attunement: true,
     attunementNote: 'Attunement requires 1 hour spent alone in darkness. At the end of that hour, make a DC 18 Wisdom saving throw or gain a long-term madness.',
-    description: 'A jagged blackened blade crossed by violet fractures that glow with inner light. The crimson edge is sharp in a way that feels deliberate — not forged, but willed into being. A baleful gem at the crossguard pulses like a dying heart. Cyric wielded this blade to kill Mystra, goddess of magic, and the Weave has been unraveling ever since. While attuned, you cannot serve any deity, and divine beings within 1 mile sense your presence. Turned against Cyric by Velkyn Kensek in the Domain of the Shattered Weave — the god's own blade became the instrument of his undoing. Claimed by the party after his death.',
+    description: 'A jagged blackened blade crossed by violet fractures that glow with inner light. The crimson edge is sharp in a way that feels deliberate — not forged, but willed into being. A baleful gem at the crossguard pulses like a dying heart. Cyric wielded this blade to kill Mystra, goddess of magic, and the Weave has been unraveling ever since. While attuned, you cannot serve any deity, and divine beings within 1 mile sense your presence. Turned against Cyric by Velkyn Kensek in the Domain of the Shattered Weave — the god\'s own blade became the instrument of his undoing. Claimed by the party after his death.',
     properties: [
       '+3 weapon bonus to attack and damage rolls.',
       '+2d8 necrotic damage on all hits, ignoring necrotic resistance.',
