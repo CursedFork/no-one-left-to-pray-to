@@ -15,6 +15,8 @@ export interface Character {
   accentColor: string;
   biography: string;
   dndBeyondLink?: string;
+  /** Set to true to reveal this character's full record. */
+  unlocked?: boolean;
 }
 
 export interface Session {
