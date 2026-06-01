@@ -133,7 +133,7 @@ export const bestiary: BestiaryEntry[] = [
     tags: ['Archdevil', 'Boss', 'Encountered', 'Slain'],
     status: 'Slain',
     description: 'The Archduchess of Avernus — a fallen angel who had administered the first layer of Hell through force of will and centuries of experience. Killed in her own throne room by the party. Final blows landed simultaneously: Tian-Rui\'s disintegration beam and Skavir\'s twin laser pistols. She vanished on death, leaving only the Sword of Zariel and 2,000 gold pieces on the throne room floor.',
-    notes: 'Left her legendary sword behind — either as a message, a gift, or an insult. The Sword of Zariel was later used by Velkyn Kensek to slay Cyric.',
+    notes: 'Left her legendary sword behind — either as a message, a gift, or an insult. The Sword of Zariel passed to Velkyn Kensek and remains in his possession.',
   },
 
   {
@@ -152,7 +152,7 @@ export const bestiary: BestiaryEntry[] = [
     role: 'God of Murder',
     tags: ['Divine', 'Boss', 'Encountered', 'Slain'],
     status: 'Slain',
-    description: 'The God of Murder, who was freed from infernal imprisonment in Avernus and immediately reclaimed Godsbane — which he had wanted more than he had wanted freedom. Revealed that he had killed Mystra, goddess of magic, with Godsbane. His Domain of the Shattered Weave served as the arena for the final confrontation. Killed by Velkyn Kensek with the Sword of Zariel. His death left Godsbane in the party\'s possession.',
+    description: 'The God of Murder, who was freed from infernal imprisonment in Avernus and immediately reclaimed Godsbane — which he had wanted more than he had wanted freedom. Revealed that he had killed Mystra, goddess of magic, with Godsbane. His Domain of the Shattered Weave served as the arena for the final confrontation. Killed by Velkyn Kensek with Godsbane — his own blade, turned against him by the same hand that had freed him. His death left Godsbane in the party\'s possession.',
     notes: 'Cyric had planned for his release and the subsequent confrontation. His laughter throughout was the laughter of someone who had seen this coming. The domain he tore into did not collapse upon his death — it simply became still.',
   },
 ];

@@ -8,7 +8,7 @@ export const magicItems: MagicItem[] = [
     rarity: 'Artifact',
     attunement: true,
     attunementNote: 'Requires attunement by a creature the sword deems worthy. The weapon can choose to attune to a bearer or reject them.',
-    description: 'This longsword belonged to the angel Zariel before her fall from grace. Fashioned from celestial steel, its blade is keen and its purpose is clear: to smite evil wherever it is found. It was left behind by Zariel upon her death in her throne room — a thing left by something that had prepared for the possibility of defeat. Currently wielded by Velkyn Kensek, with whose blade it ended the God of Murder.',
+    description: 'This longsword belonged to the angel Zariel before her fall from grace. Fashioned from celestial steel, its blade is keen and its purpose is clear: to smite evil wherever it is found. It was left behind by Zariel upon her death in her throne room — a thing left by something that had prepared for the possibility of defeat. Currently wielded by Velkyn Kensek.',
     properties: [
       'Angelic Language: You can speak, read, and write Celestial.',
       'Celestial Resistance: You have resistance to necrotic and radiant damage.',
@@ -34,7 +34,7 @@ export const magicItems: MagicItem[] = [
     rarity: 'Artifact',
     attunement: true,
     attunementNote: 'Attunement requires 1 hour spent alone in darkness. At the end of that hour, make a DC 18 Wisdom saving throw or gain a long-term madness.',
-    description: 'A jagged blackened blade crossed by violet fractures that glow with inner light. The crimson edge is sharp in a way that feels deliberate — not forged, but willed into being. A baleful gem at the crossguard pulses like a dying heart. Cyric wielded this blade to kill Mystra, goddess of magic, and the Weave has been unraveling ever since. While attuned, you cannot serve any deity, and divine beings within 1 mile sense your presence. Claimed by the party after Cyric\'s death; currently held by the party.',
+    description: 'A jagged blackened blade crossed by violet fractures that glow with inner light. The crimson edge is sharp in a way that feels deliberate — not forged, but willed into being. A baleful gem at the crossguard pulses like a dying heart. Cyric wielded this blade to kill Mystra, goddess of magic, and the Weave has been unraveling ever since. While attuned, you cannot serve any deity, and divine beings within 1 mile sense your presence. Turned against Cyric by Velkyn Kensek in the Domain of the Shattered Weave — the god's own blade became the instrument of his undoing. Claimed by the party after his death.',
     properties: [
       '+3 weapon bonus to attack and damage rolls.',
       '+2d8 necrotic damage on all hits, ignoring necrotic resistance.',

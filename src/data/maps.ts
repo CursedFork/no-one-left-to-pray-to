@@ -22,7 +22,7 @@ export const maps: MapEntry[] = [
   {
     slug: 'cyric-domain',
     title: "Cyric's Domain — The Shattered Weave",
-    description: "A space of corpse-light and cracked marble, the floor crossed by violet fractures matching those in Godsbane's blade. Stained glass windows depicted the deaths of gods in frozen tableau. At the center stood the Throne of Unmaking. This was where Cyric revealed that he had killed Mystra — the goddess of magic — with Godsbane, and where Velkyn Kensek ended the God of Murder with the Sword of Zariel. Upon Cyric's death, the domain became still. The corpse-light dimmed to ordinary darkness.",
+    description: "A space of corpse-light and cracked marble, the floor crossed by violet fractures matching those in Godsbane's blade. Stained glass windows depicted the deaths of gods in frozen tableau. At the center stood the Throne of Unmaking. This was where Cyric revealed that he had killed Mystra — the goddess of magic — with Godsbane, and where Velkyn Kensek ended the God of Murder with Godsbane — Cyric's own blade, turned against him. Upon Cyric's death, the domain became still. The corpse-light dimmed to ordinary darkness.",
     image: '/images/maps/cyric-domain.jpg',
   },
   {
