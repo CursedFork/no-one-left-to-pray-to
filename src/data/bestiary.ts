@@ -99,10 +99,10 @@ export const bestiary: BestiaryEntry[] = [
   {
     slug: 'izanami',
     name: 'Izanami',
-    role: 'Goddess of Death and Creation — Next Boss',
-    tags: ['Divine', 'Boss', 'Active'],
-    status: 'Active',
-    description: 'The goddess of death and creation, whose avatar led the undead horde against Aurelith. Spoke to the party after the horde\'s defeat, calling their deicidal journey to an end. She will not allow the avatar of Izanagi to persist in this world.',
+    role: 'Goddess of Death and Creation',
+    tags: ['Divine', 'Boss', 'Encountered', 'Slain'],
+    status: 'Slain',
+    description: 'The goddess of death and creation, whose avatar led the undead horde against Aurelith and who was subsequently hunted into her own domain. The party followed her into the Blossoms of Yomi, destroyed her phylactery, and killed her beneath the central cherry tree of her shrine. She fought with five fans and the patience of something that had watched civilizations return to her in pieces; she lost anyway. The domain did not die with her — it simply went still. The petals stopped falling.',
     stats: {
       hp: 500,
       ac: 23,

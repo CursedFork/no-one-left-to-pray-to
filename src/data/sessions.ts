@@ -82,4 +82,54 @@ What came after was not quiet. A voice — not from any throat present, not from
 
 The valley was silent again. The cherry blossoms that had been falling since the Lich's invocation continued to fall, and then stopped, and then the petals that had landed on the ground turned to ash.`,
   },
+
+  {
+    slug: 'blossoms-to-ash',
+    title: 'Blossoms to Ash',
+    date: 'April 22nd, 2026',
+    teaser: 'The party enters Yomi. A phylactery shattered. A goddess slain in her own garden.',
+    body: `The path to Izanami's domain was not given willingly. They had earned the right to pursue it through the battle in the valley — through the horde, through the avatar, through the rakshasa's terms — and what opened to them afterward was not an invitation but a consequence. The goddess had spoken, and the door that her speaking had made implicit was the only door available.
+
+The Blossoms of Yomi is still in the way that places become still when nothing in them has ever needed to hurry. Cherry blossom petals fell in a constant slow drift, though there was no wind to carry them and the sky above the torii gate was not a sky any of them recognized. The petals turned to ash where they landed — on stone, on ground, on skin if you stood in one place long enough. The path from the gate to the shrine at the domain's center was exactly as long as it needed to be for the party to understand, by the time they reached the massive cherry tree anchoring the shrine's courtyard, that they had walked into something that had been waiting for them.
+
+They destroyed the phylactery before they fought her. The particulars of how they located it belong to the people who were present — suffice to say that the domain, for all its stillness, was not built by something that expected to be hunted in it. The golden fan in its lacquered case, once shattered, produced a sound like a door closing in a room with no door.
+
+Izanami arrived at the shrine. She had five fans and a thousand years of practice with them and the patience of something that has watched civilizations rise and return to her in pieces. She fought with an elegance that communicated, at every turn, that she was not afraid of the people attempting to kill her so much as disappointed in the ambition of the attempt. The cherry blossoms fell through the fight and burned where they struck. The river along the western edge went quiet.
+
+She died beneath the tree that had been standing when the domain was made. The petals that had been falling stopped, all at once, and the ones already on the ground finished turning to ash. The torii gate remained standing. Everything else went very still.
+
+They walked back through it. The domain of Yomi would remain — the place was not contingent on the goddess in the way that some domains are — but the divine presence in it had ended, and the silence left by that ending was the particular silence of a world that has one fewer god in it than it had before.`,
+  },
+
+  {
+    slug: 'coin-and-quiet',
+    title: 'Coin and Quiet',
+    date: 'April 29th, 2026',
+    teaser: 'A reward from Lord Crassis, a tribute arrangement uncovered, and Skavir with wings.',
+    body: `They returned to Aurelith carrying the weight of what they had done and the significantly more portable weight of their reward. Lord Cassian Crassis — the capital's principal administrator, the kind of official who has made his peace with the reality that governance consists largely of managing the consequences of decisions made by people more interesting than himself — received them in the administrative hall and dispensed the reward with the crisp efficiency of someone who understood that efficiency was the closest available substitute for grace. One thousand gold pieces each. A formal acknowledgment that the horde had been turned. A door closing behind a functionary who did not look anyone in the eyes.
+
+The downtime that followed was the kind cities make available to people who have nowhere else to be and enough coin that being nowhere in particular is comfortable. Aurelith is large enough that you can disappear into it — or be disappeared by it — depending on what you need.
+
+What they found in the disappearing was inconvenient. The merchants in Aurelith's eastern market district had arrangements with Demeter — not the kind recorded in ledgers, but the kind written in other people's children, in tribute agreements that predated the current administration and had continued, in the way of things that generate consistent returns, without anyone finding a reason to examine them. The party found a reason.
+
+Skavir drew the Sword of Zariel in the market square. The sword — Zariel's artifact, held by Velkyn Kensek — manifested wings of white feather from Skavir's shoulders at the moment of the draw, opening like a statement rather than a display. He drove the merchants out of the city. He did not ask whether this was sanctioned. The merchants did not ask either.
+
+The square was quiet when he sheathed it. The feathers folded and were gone. The merchants did not return.`,
+  },
+
+  {
+    slug: 'what-the-soil-remembers-part-1',
+    title: 'What the Soil Remembers — Part I',
+    date: 'May 6th, 2026',
+    teaser: 'A priest of Demeter delivers a warning and vanishes. The city knows their name.',
+    body: `The morning after the market square was quieter than the evening had been, which was not necessarily a good sign.
+
+The investigation began with the question of who had known about the tribute arrangements and declined to act, and produced, as investigations of that kind typically do, more names than answers. Aurelith's administrative awareness of Demeter's presence in the city's commercial arrangements was not ignorance — it was the kind of deliberate not-looking that requires active maintenance and leaves marks in the record if you know what marks to look for. The party looked.
+
+The priest arrived before noon. He was green-and-purple robed, which are Demeter's colors, and he had the expression of someone who has delivered a message often enough to have lost any personal investment in how it is received. He delivered it: an acknowledgment of the previous evening's events, a warning whose terms were clear enough that repeating them here adds nothing, and a teleportation exit that closed behind him with a sound like roots pulling from soil. No one caught him. No one had expected to.
+
+Their reputation found them in the same afternoon, in the manner that reputations find people who have done things that cities notice. Posters bearing their likenesses had been circulating in Aurelith's districts since the valley battle — the word attached to them was Godslayers, which is a word that opens some doors by implying that the alternative to a door is also available. The city heeded them accordingly.
+
+Velkyn Kensek spent the latter part of the day at Ironvein Armaments. Garrik Ironvein — a craftsman with the specific reputation of someone who makes things for people who need them to work when it matters, and who asks few questions about what they are being made to work against — had two pieces ready. A longsword capable of seating one materia, already finished. A greatsword capable of holding two, commissioned. Both weapons look ordinary. They are not waiting to look extraordinary. They are waiting for something to be placed in them.`,
+  },
 ];
