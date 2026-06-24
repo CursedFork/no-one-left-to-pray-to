@@ -104,7 +104,7 @@ They walked back through it. The domain of Yomi would remain — the place was n
   {
     slug: 'coin-and-quiet',
     title: 'Coin and Quiet',
-    date: 'April 29th, 2026',
+    date: 'June 3rd, 2026',
     teaser: 'A reward from Lord Crassis, a tribute arrangement uncovered, and Skavir with wings.',
     body: `They returned to Aurelith carrying the weight of what they had done and the significantly more portable weight of their reward. Lord Cassian Crassis — the capital's principal administrator, the kind of official who has made his peace with the reality that governance consists largely of managing the consequences of decisions made by people more interesting than himself — received them in the administrative hall and dispensed the reward with the crisp efficiency of someone who understood that efficiency was the closest available substitute for grace. One thousand gold pieces each. A formal acknowledgment that the horde had been turned. A door closing behind a functionary who did not look anyone in the eyes.
 
@@ -120,7 +120,7 @@ The square was quiet when he sheathed it. The feathers folded and were gone. The
   {
     slug: 'what-the-soil-remembers-part-1',
     title: 'What the Soil Remembers — Part I',
-    date: 'May 6th, 2026',
+    date: 'June 17th, 2026',
     teaser: 'A priest of Demeter delivers a warning and vanishes. The city knows their name.',
     body: `The morning after the market square was quieter than the evening had been, which was not necessarily a good sign.
 
