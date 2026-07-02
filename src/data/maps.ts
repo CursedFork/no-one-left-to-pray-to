@@ -11,19 +11,19 @@ export const maps: MapEntry[] = [
     slug: 'zariel-throne-room',
     title: "Avernus: Zariel's Throne Room",
     description: "A cathedral-scaled space carved from the bones of things that died believing they were important, lit by fire that gives light without warmth. The party came here to free Cyric from infernal imprisonment. They defeated both Titivilus and Zariel herself — finishing blows landed simultaneously from Tian-Rui's disintegration beam and Skavir's twin laser pistols. Zariel vanished on death, leaving her sword and 2,000 gp on the floor.",
-    image: '/images/maps/zariel-throne.jpg',
+    image: '/images/maps/zariel-throne.png',
   },
   {
     slug: 'zariel-throne-aftermath',
     title: "Avernus: Zariel's Throne Room — Aftermath",
     description: "The throne room after Zariel's death and Cyric's release. Cyric seated himself on the throne as if he had always meant to be there — which, in retrospect, he had. The party's attempted deception failed. Reality tore. The passage to Cyric's Domain of the Shattered Weave opened here, and the party crossed through into the final confrontation with the God of Murder.",
-    image: '/images/maps/zariel-aftermath.jpg',
+    image: '/images/maps/zariel-aftermath.png',
   },
   {
     slug: 'cyric-domain',
     title: "Cyric's Domain — The Shattered Weave",
     description: "A space of corpse-light and cracked marble, the floor crossed by violet fractures matching those in Godsbane's blade. Stained glass windows depicted the deaths of gods in frozen tableau. At the center stood the Throne of Unmaking. This was where Cyric revealed that he had killed Mystra — the goddess of magic — with Godsbane, and where Velkyn Kensek ended the God of Murder with Godsbane — Cyric's own blade, turned against him. Upon Cyric's death, the domain became still. The corpse-light dimmed to ordinary darkness.",
-    image: '/images/maps/cyric-domain.jpg',
+    image: '/images/maps/cyric-domain.png',
   },
   {
     slug: 'blossoms-of-yomi',
