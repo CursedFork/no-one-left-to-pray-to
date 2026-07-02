@@ -132,4 +132,36 @@ Their reputation found them in the same afternoon, in the manner that reputation
 
 Velkyn Kensek spent the latter part of the day at Ironvein Armaments. Garrik Ironvein — a craftsman with the specific reputation of someone who makes things for people who need them to work when it matters, and who asks few questions about what they are being made to work against — had two pieces ready. A longsword capable of seating one materia, already finished. A greatsword capable of holding two, commissioned. Both weapons look ordinary. They are not waiting to look extraordinary. They are waiting for something to be placed in them.`,
   },
+
+  {
+    slug: 'what-the-soil-remembers-part-2',
+    title: 'What the Soil Remembers — Part II',
+    date: 'June 24th, 2026',
+    teaser: 'A dead halfling, a priest run to ground, and a summoning rite written in children\'s blood.',
+    body: `The morning found the party divided by their own excesses. Kutada had spent the night making an enemy of a tavern, hurling first the dishware and then a halfling across the room, and by the time the sun rose the halfling was dead and the manner of it was ugly enough that the patrons carried the account to the city guard. Word of it would follow her out of Aurelith.
+
+The priest in green and purple had not gone far. Kuxtal and Tian-Rui ran him down through the crowded Temple District, and where the crowd had swallowed him once before, this time it did not. Skavir took him. He carried the man to a great height and let him fall, fifty feet of open air, and the priest made no sound the whole way down — no scream, no plea, only a serene and unsettling silence, as though the ground held no fear for one who served the goddess of the buried. Skavir caught him again before he struck.
+
+What the priest gave up under questioning was a horror dressed as instruction. Demeter could be summoned, he said, but only by the sacrifice of a child under the age of ten. Nothing less would call her. He spoke of three churches raised in her name and marked them on the party's map — one in Aurelith, one in the western region, one in the north — though when pressed to mark the smaller villages his hand faltered, the knowledge slippery in a way that felt deliberate. Velkyn rejoined them in time to hear the worst of it.
+
+When the well ran dry, Tian-Rui released the spell that bound him, and the priest teleported away in the same breath, gone as cleanly as he had vanished every time before. The party was left with a marked map, a summoning rite written in children's blood, and the road to Skavir's home laid plain before them.`,
+  },
+
+  {
+    slug: 'the-long-way-home',
+    title: 'The Long Way Home',
+    date: 'July 1st, 2026',
+    teaser: 'A bandit spared, a village cursed, and a goddess coming to collect a boy.',
+    body: `They left Aurelith under watchful eyes. The city that had named them Godslayers had not forgotten the dead halfling, and the guards marked Kutada's passage with looks that said as much, though none moved to stop her. The party kept to the lake route as they traveled, hugging the water, and gave the road no room for the tricks it liked to play — the wrong turns, the distances that lied.
+
+Three bandits tried their luck along the way. Two fled at the sight of what they had ambushed. The third held his ground, a commoner named Dave, brandishing a dagger bought with the last of his family's gold. The party did not kill him. They spoke with him instead, and learned that he came from a small farming village now starving as its crops failed — that only one farmer among them had brought in a decent harvest the season before, and the rest were sliding toward famine. Dave had taken up the dagger not out of greed but desperation. So the party took him in, and a trembling commoner found himself walking among the slayers of gods.
+
+The land sickened as they neared Skavir's home. The fields gave way to a wasteland of salted dirt where nothing grew, not crop nor weed, and no animal made any sound at all. At the border between the dead land and the village stood a wall of bramble, and before it a sentinel — Demeter's Watchdog, a scarecrow of straw and bone and thorn that lifted its ragged head to watch them come. It had been built to devastate, and against lesser adventurers it would have. Against this party it was a speed bump, torn down with brutal efficiency, though when it fell it burst in a cloud of spores that nearly caught Dave full in the chest.
+
+Beyond the bramble the world turned lush. Skavir's village stood green and fragrant, flowers in bloom and crops standing tall — and the villagers among them were starving, bone-thin, living skeletons draped in loose skin. Skavir's younger brother offered him an apple, and when he bit into it, it turned to ash in his mouth. Velkyn and Kutada drank from their flasks and tasted bile. Everything that grew here had been cursed to nourish no one.
+
+A neighbor, the man most recently forced to give up a child, told them how it had come to this. Demeter had been angered, he said, and in her fury had cursed the village's every crop and drop of water and thrown a wall of thorns around them all so that none could flee their slow starvation. Then he told them the older horror — that for five years the village had endured her ritual, one boy and one girl under the age of ten chosen every year and buried alive in the fields as fertilizer, while the goddess looked on without feeling as they screamed and clawed at the closing soil. Five years. Ten children. A price she called fair.
+
+There was no time left to grieve it. In less than a week Demeter would come to claim Skavir's brother — not merely as this year's tribute, but as penance for the heresy Skavir had committed in driving her followers from the capital. The party stood in a cursed paradise walled in by thorns, its people dying amid full fields, with a god's vengeance already on its way. Evacuate the village, or save it. Break the curse, or break the bramble. One way or another, the soil was about to be answered.`,
+  },
 ];

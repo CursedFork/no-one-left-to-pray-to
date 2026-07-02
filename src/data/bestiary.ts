@@ -155,4 +155,24 @@ export const bestiary: BestiaryEntry[] = [
     description: 'The God of Murder, who was freed from infernal imprisonment in Avernus and immediately reclaimed Godsbane — which he had wanted more than he had wanted freedom. Revealed that he had killed Mystra, goddess of magic, with Godsbane. His Domain of the Shattered Weave served as the arena for the final confrontation. Killed by Velkyn Kensek with Godsbane — his own blade, turned against him by the same hand that had freed him. His death left Godsbane in the party\'s possession.',
     notes: 'Cyric had planned for his release and the subsequent confrontation. His laughter throughout was the laughter of someone who had seen this coming. The domain he tore into did not collapse upon his death — it simply became still.',
   },
+
+  {
+    slug: 'demeters-watchdog',
+    name: "Demeter's Watchdog",
+    role: 'Threshold Guardian',
+    tags: ['Construct', 'Encountered', 'Slain'],
+    status: 'Slain',
+    description: 'A scarecrow-construct of straw, bone, and bramble, set to guard the wall sealing Skavir\'s home village. Built to devastate lesser trespassers. Torn down with brutal efficiency by the party, though it burst into a cloud of spores on death — a last defense nearly caught Dave full in the chest.',
+    notes: 'Encountered at the bramble wall on the approach to Skavir\'s village, alongside the discovery that the village and its people had been cursed.',
+  },
+
+  {
+    slug: 'demeter',
+    name: 'Demeter',
+    role: 'Goddess of Fertility',
+    tags: ['Divine', 'Boss'],
+    status: 'Active',
+    description: 'The old Greek earth goddess, older than most deities who hold current sway, whose blight took Skavir\'s village and whose priests demand tribute in the form of children under ten, buried alive as fertilizer. For five years, one boy and one girl chosen annually from Skavir\'s village alone. Now cursing the village\'s crops and water and sealing it behind a wall of bramble as punishment for Skavir\'s heresy in Aurelith. Expected to arrive in person within the week to claim Skavir\'s younger brother — both as this year\'s tribute and as penance for the party\'s defiance. Not yet encountered.',
+    notes: 'Three churches raised in her name are known: one in Aurelith, one in the western region, one in the north.',
+  },
 ];
