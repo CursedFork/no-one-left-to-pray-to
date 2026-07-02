@@ -5,7 +5,7 @@ export const maps: MapEntry[] = [
     slug: 'aethernox-continent',
     title: 'Aethernox Continent',
     description: 'Aethernox looks like a normal fantasy world — but something is wrong. The gods still exist, magic still works, and life goes on, yet reality feels strained. The main continent stretches from the frozen Cold Reach in the east to the temperate Verdant Belt in the north, with island chains to the west and the southern regions bordering the deep desert. At the center of all trade and governance: Aurelith, the capital.',
-    image: '/images/maps/aethernox-map.jpg',
+    image: '/images/maps/aethernox-map.png',
   },
   {
     slug: 'zariel-throne-room',

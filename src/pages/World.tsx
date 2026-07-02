@@ -42,7 +42,7 @@ export default function World() {
           <figure className="mb-12">
             <div className="relative bg-bg-panel border border-accent-gold/20 rounded-sm overflow-hidden">
               <img
-                src="/images/maps/aethernox-map.jpg"
+                src="/images/maps/aethernox-map.png"
                 alt="The continent of Aethernox"
                 className="w-full h-auto max-h-[500px] object-cover object-center"
                 onError={(e) => {
