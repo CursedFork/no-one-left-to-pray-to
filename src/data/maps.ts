@@ -8,6 +8,12 @@ export const maps: MapEntry[] = [
     image: '/images/maps/aethernox-map.png',
   },
   {
+    slug: 'aurelith-capital',
+    title: 'Aurelith — The Capital',
+    description: "The seat of trade and governance on Aethernox, walled and ringed by river on nearly every side. The Merchant Guild and the domed palace crown the city's center, with the Market spreading beneath them and the Temple District — where a green-and-purple-robed priest of Demeter was run down through crowded streets — standing to the east. The River Docks receive traffic from the Outer Trade Roads that wind through the surrounding farmland. Lord Cassian Crassis administers the city from within its walls. The party is known here as Godslayers.",
+    image: '/images/maps/aurelith-capital.png',
+  },
+  {
     slug: 'zariel-throne-room',
     title: "Avernus: Zariel's Throne Room",
     description: "A cathedral-scaled space carved from the bones of things that died believing they were important, lit by fire that gives light without warmth. The party came here to free Cyric from infernal imprisonment. They defeated both Titivilus and Zariel herself — finishing blows landed simultaneously from Tian-Rui's disintegration beam and Skavir's twin laser pistols. Zariel vanished on death, leaving her sword and 2,000 gp on the floor.",
