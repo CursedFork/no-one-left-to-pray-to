@@ -44,7 +44,7 @@ export default function World() {
               <img
                 src="/images/maps/aethernox-map.png"
                 alt="The continent of Aethernox"
-                className="w-full h-auto max-h-[500px] object-cover object-center"
+                className="w-full h-auto"
                 onError={(e) => {
                   const el = e.currentTarget as HTMLImageElement;
                   el.style.display = 'none';
