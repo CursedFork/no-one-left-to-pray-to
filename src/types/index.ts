@@ -92,3 +92,24 @@ export interface LoreSection {
   body: string;
   subsections?: { id: string; heading: string; body: string }[];
 }
+
+export type NpcStatus = 'Traveling With Party' | 'Alive' | 'Deceased' | 'Unknown';
+
+export interface Npc {
+  slug: string;
+  name: string;
+  role: string;
+  status: NpcStatus;
+  description: string;
+  firstAppearance?: string;
+}
+
+export type ThreadStatus = 'Open' | 'Resolved';
+
+export interface LooseThread {
+  slug: string;
+  title: string;
+  status: ThreadStatus;
+  description: string;
+  firstAppearance?: string;
+}

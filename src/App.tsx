@@ -11,6 +11,7 @@ import BestiaryPage from './pages/BestiaryPage';
 import Items from './pages/Items';
 import ItemPage from './pages/ItemPage';
 import Maps from './pages/Maps';
+import Notes from './pages/Notes';
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
           <Route path="items" element={<Items />} />
           <Route path="items/:slug" element={<ItemPage />} />
           <Route path="maps" element={<Maps />} />
+          <Route path="notes" element={<Notes />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

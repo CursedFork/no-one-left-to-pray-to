@@ -9,6 +9,7 @@ const links = [
   { to: '/bestiary', label: 'Bestiary' },
   { to: '/items', label: 'Items' },
   { to: '/maps', label: 'Maps' },
+  { to: '/notes', label: 'Notes' },
 ];
 
 export default function Nav() {
