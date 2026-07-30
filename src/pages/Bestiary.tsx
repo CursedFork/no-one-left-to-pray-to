@@ -4,7 +4,7 @@ import BestiaryCard from '../components/BestiaryCard';
 import { bestiary } from '../data/bestiary';
 import type { BestiaryStatus } from '../types';
 
-const STATUS_FILTERS: (BestiaryStatus | 'All')[] = ['All', 'Active', 'Slain', 'Bargained With', 'Erased'];
+const STATUS_FILTERS: (BestiaryStatus | 'All')[] = ['All', 'Active', 'Slain', 'Bargained With', 'Erased', 'Destroyed'];
 
 export default function Bestiary() {
   const [filter, setFilter] = useState<BestiaryStatus | 'All'>('All');

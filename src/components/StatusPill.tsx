@@ -5,6 +5,7 @@ const config: Record<BestiaryStatus, { label: string; classes: string }> = {
   Slain: { label: 'Slain', classes: 'bg-accent-blood/30 text-red-300 border-accent-blood/50' },
   'Bargained With': { label: 'Bargained', classes: 'bg-accent-gold/20 text-accent-gold border-accent-gold/40' },
   Erased: { label: 'Erased', classes: 'bg-accent-violet/20 text-violet-300 border-accent-violet/40' },
+  Destroyed: { label: 'Destroyed', classes: 'bg-parchment-dark/20 text-parchment-dark/70 border-parchment-dark/40' },
 };
 
 export default function StatusPill({ status }: { status: BestiaryStatus }) {
