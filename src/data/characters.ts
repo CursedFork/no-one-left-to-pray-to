@@ -88,7 +88,7 @@ What drives her now is not revenge in the clean sense. It is more accurate to sa
       'Avoids casual interaction',
     ],
     portrait: '/images/characters/skavir-xarakas.png',
-    unlocked: false,
+    unlocked: true,
     accentColor: '#3d4a3a',
     biography: `The farm where Skavir Xarakas grew up sat at the high end of a mountain valley where the soil was thin and the seasons were short and the neighbors were two hours away on a clear day. His family worked it anyway — his father, a tiefling who had come to the mountains to avoid the complications of living among people who feared tieflings, and his younger brother, who inherited their father's easy laugh. His mother was a different matter. She had disappeared before Skavir's memory had fully formed, gone to explore the underplanes according to his father, though exactly where or why was a story that changed depending on how much his father had drunk.
 
@@ -102,7 +102,9 @@ Folk hero is the category his background falls into, which is a polite way of sa
 
 He found his way toward Cyric's domain through a series of lateral moves — rumors, dead ends, a merchant who knew a priest who knew a scholar who had once found a reference to the kind of divine interference Demeter had committed and where one might go to seek redress. Redress is the wrong word for what he wants. He wants Demeter prevented. He wants a guarantee that no one else's children get pulled into the dark in service of a harvest that was going to come back anyway.
 
-He does not discuss this goal casually. He does not discuss much casually. If you travel with Skavir Xarakas for long enough, you learn that every word he says is load-bearing and that the silence around his words is not unfriendliness so much as a total absence of use for small talk in a life that has not had room for it.`,
+He does not discuss this goal casually. He does not discuss much casually. If you travel with Skavir Xarakas for long enough, you learn that every word he says is load-bearing and that the silence around his words is not unfriendliness so much as a total absence of use for small talk in a life that has not had room for it.
+
+Demeter is dead. Skavir followed the trail back to the mountain valley where it started, found his childhood home cursed and starving behind a wall of bramble, and watched the goddess herself descend to collect his younger brother as this year's tribute. She offered him a reason for it — nature above the gods, a famine that would have taken more than she claimed, necessity dressed as harvest. He did not need to weigh the argument. No arithmetic she could produce accounted for the children he had watched taken as a boy, and he told her so before the fighting started. Velkyn drove the killing sequence and handed him the final blow, because it was never his god to end. It was Skavir's. He buried what was left of her in the same unmarked soil she had used for his siblings — no stone, no name, the same quiet anonymity she had given them. The village is free. The wells run clean. He does not call it victory so much as a debt finally paid in the only currency the ledger accepted.`,
   },
 
   {

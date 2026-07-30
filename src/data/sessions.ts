@@ -164,4 +164,36 @@ A neighbor, the man most recently forced to give up a child, told them how it ha
 
 There was no time left to grieve it. In less than a week Demeter would come to claim Skavir's brother — not merely as this year's tribute, but as penance for the heresy Skavir had committed in driving her followers from the capital. The party stood in a cursed paradise walled in by thorns, its people dying amid full fields, with a god's vengeance already on its way. Evacuate the village, or save it. Break the curse, or break the bramble. One way or another, the soil was about to be answered.`,
   },
+
+  {
+    slug: 'the-withering-hour',
+    title: 'The Withering Hour',
+    date: 'July 15th, 2026',
+    teaser: 'A curse studied, a Heartroot broken, and a goddess arriving early to collect.',
+    body: `Before any plan could be made, the party set themselves to understanding the curse that held the valley. They studied the rot at work in the fields and the fading villagers and came to grasp its mechanism — a decay that did not merely sicken but unmade, stripping strength and speed and finally life itself in stages, until nothing remained but soil. It was not a thing to be endured. It was a thing to be outrun.
+
+The day was spent in grim preparation. The party moved through the cursed village and gathered what useful resources a doomed place could still offer, staging themselves for what they knew was coming. Every hour cost the village something — the bramble drew tighter, the blossoms greyed, and in a failing house Skavir's younger brother weakened as the curse marked him for what he was meant to become. There was no version of this where they simply waited.
+
+So they stopped waiting. At the edge of the ritual circle pulsed the Heartroot, the knotted anchor from which the whole bramble wall drew its life. It could not be reasoned with and would not stop regrowing; it could only be destroyed. And so they destroyed it, and as the last of it split and blackened, the great wall that had caged the village began to wither and die. The way out was open. But the ground had been listening, and breaking the Heart was the one thing the soil could not forgive.
+
+The party thought they had days. They had seconds. The ground did not shake so much as settle, the way earth settles over something buried. Every blossom opened at once, impossibly bright, and then browned and blackened and fell to rot, the sweet air curdling, the light draining to the grey of an overcast grave. In a breath the cursed paradise collapsed into ruin. Then the sky split, and lightning struck the heart of the ritual circle, and where it fell she was standing as though she always had — a woman crowned in wheat and dead branches, robed in husks and rot that had been golden a heartbeat before, beautiful the way a harvest is beautiful and just as indifferent to its cost. Demeter had come to collect. No word had yet been spoken.`,
+  },
+
+  {
+    slug: 'the-last-harvest',
+    title: 'The Last Harvest',
+    date: 'July 29th, 2026',
+    teaser: 'A goddess explains herself. Skavir refuses the argument. The fourth god falls.',
+    body: `The goddess stood in the rot she had made, and for a while there were only words. Demeter did not rage; she explained. She spoke of nature as a thing greater than herself, a vast and hungry order she did not rule so much as tend, and she warned that the famine gathering over the land would not be turned aside by mercy alone. The sacrifices were not cruelty, she said, but the price of holding back a starvation that would swallow far more than the few she claimed.
+
+> "You call it cruelty. I call it arithmetic. Nature does not forgive an unpaid debt, and I am the only one honest enough to collect it before the famine collects for itself."
+
+Skavir would not have it. He refused her the comfort of that reasoning. Whatever hunger loomed over the world, whatever grim arithmetic she offered, he would not concede that it gave her the right to bury children in the dark. Perhaps her sacrifices had held back the famine; perhaps the cost of refusing her would be terrible. He did not care. No harvest was worth the graves he had dug as a boy, and no god had the right to demand them.
+
+There was nothing left to say. The village died around them as the battle began, the last of the spring rotting to blight, and in the ruin of his home Skavir fought the goddess who had made it a slaughterhouse. She fought as the land fights — with grasping roots and withering blight, with the buried dead called up to wail and clutch, with a curse that spread suffering between them like rot through a shared root. Even now Skavir fought like a man searching for any road that did not end in her death, and Demeter left him none. She would not yield. She would not stop. She left him no choice, and so he stopped looking for another.
+
+In the end it was not one hand that felled her but two. Velkyn drove into the finishing sequence that had ended Cyric and the avatar of Izanami before her, and as the goddess faltered and the killing blow came due, he did not take it. He offered it to Skavir. This was never his god to kill; it was Skavir's — his grief, his village, his siblings in the soil, his brother in the ground even then. And so the two struck together, drow and tiefling, their blades finding the goddess of the harvest as one. Demeter fell, and the curse fell with her — the rot receding, the poison lifting from the water and the grain.
+
+There was no triumph in Skavir when it was done. He gathered what remained of her and he buried it in an unmarked grave, dug into the soil of the village she had bled for a generation — no stone, no name, no marker to say what lay beneath. The same anonymity she had given his siblings; the same quiet earth. The goddess who had turned his home into a graveyard was now simply part of the ground, like all the children before her. The village was free and the wells ran clean, but her last warning did not die with her: nature is above the gods, and it is hungry, and the famine is still coming. Skavir kept the promise he made as a boy. What that costs the rest of the world is a question for another season.`,
+  },
 ];

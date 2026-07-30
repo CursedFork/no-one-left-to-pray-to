@@ -19,4 +19,18 @@ export const looseThreads: LooseThread[] = [
     description: 'Kutada killed a halfling in an Aurelith tavern — dishware first, then the halfling himself, thrown across the room. The manner of it was ugly enough that the patrons carried the account to the city guard. The party left the capital before it caught up with her, but Aurelith does not forget its Godslayers, and the guards marked her passage on the way out with looks that said the account was still open.',
     firstAppearance: 'What the Soil Remembers — Part II',
   },
+  {
+    slug: 'demeters-famine-warning',
+    title: "Demeter's Famine Warning",
+    status: 'Open',
+    description: 'Demeter\'s dying argument was not a bluff dressed as philosophy — she meant it. A famine is gathering over the land that her sacrifices were, by her account, holding back. She is dead and the debt she claimed to be servicing has not gone anywhere. Whether the warning was true, exaggerated, or a last attempt to make her death cost the party something, remains unconfirmed.',
+    firstAppearance: 'The Last Harvest',
+  },
+  {
+    slug: 'remaining-demeter-churches',
+    title: 'The Remaining Demeter Churches',
+    status: 'Open',
+    description: 'The interrogated priest marked three churches raised in Demeter\'s name before he escaped: one in Aurelith, one in the western region, one in the north. The Aurelith church\'s congregation scattered when Skavir drove the merchants out of the capital. The other two — western and northern — have not been located or dealt with, and Demeter\'s death does not necessarily mean her clergy stopped believing in the arithmetic she died defending.',
+    firstAppearance: 'What the Soil Remembers — Part II',
+  },
 ];
