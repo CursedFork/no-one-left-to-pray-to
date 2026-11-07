@@ -196,4 +196,110 @@ In the end it was not one hand that felled her but two. Velkyn drove into the fi
 
 There was no triumph in Skavir when it was done. He gathered what remained of her and he buried it in an unmarked grave, dug into the soil of the village she had bled for a generation — no stone, no name, no marker to say what lay beneath. The same anonymity she had given his siblings; the same quiet earth. The goddess who had turned his home into a graveyard was now simply part of the ground, like all the children before her. The village was free and the wells ran clean, but her last warning did not die with her: nature is above the gods, and it is hungry, and the famine is still coming. Skavir kept the promise he made as a boy. What that costs the rest of the world is a question for another season.`,
   },
+
+  {
+    slug: 'the-weight-of-victory',
+    title: 'The Weight of Victory',
+    date: 'August 5th, 2026',
+    teaser: 'A finished Buster Sword, a restless storm god, and a man with chain-link tattoos.',
+    body: `Garrik Ironvein delivered the finished Buster Sword to Velkyn in Aurelith: a greatsword with two sockets cut into the flat of the blade. Velkyn seated a Fire Opal in the first, and the steel took on a red-orange cast, as if it had been left too long in the forge. It was a quiet victory, paid for in gold and workmanship rather than blood.
+
+The quiet did not last. Tian-Rui heard rumors that Talos, god of storms and destruction, had grown restless and hungry for a worthy challenger. In the same days Kuxtal saw a man with a silver chain necklace and chain-link tattoos around his wrists, a follower of Ah Puch, and her composure failed completely. Velkyn brought her back with a kiss. Tian-Rui, reading her mind, saw a dungeon filled with blood-mist.
+
+What Kuxtal could not give them was context. She could not recall where the dungeon had been, how close she and Velkyn had once been, or the name of her own god. The same fog lay over the whole city. In the library Tian-Rui read about Yaoshi and dismissed the entry. Kuxtal found a book on Ah Puch. Velkyn remembered a hollow tree standing above the dungeon where he had found her. The party resolved to look for a town that had been hollowed out.`,
+  },
+
+  {
+    slug: 'cages-and-whispers',
+    title: 'Cages and Whispers',
+    date: 'August 19th, 2026',
+    teaser: 'A fallen guild hall, two prisoners in the Colosseum, and a voice in a tavern.',
+    body: `The Merchant Guild hall fell. In the aftermath Skavir and Kutada were taken prisoner and carried to the Colosseum, the arena that had raised Kutada. Tian-Rui teleported away to a tavern.
+
+Kuxtal and Velkyn went to the Temple District, where they learned that Talos was in the city, fighting challengers in the Colosseum. They also discovered a second hideout of Ah Puch\'s cult beneath a grate.
+
+In the tavern, a voice spoke into Tian-Rui\'s mind. It was Yaoshi, and she spoke of Yggdrasil and of the elder gods. The three free members of the party agreed on one point: they could not take on Ah Puch without all five of them.`,
+  },
+
+  {
+    slug: 'the-storm-falls-silent',
+    title: 'The Storm Falls Silent',
+    date: 'August 26th, 2026',
+    teaser: 'Kutada gets up every time Talos knocks her down, and the storm god dies.',
+    body: `In the cells beneath the Colosseum, Kutada told the party the history she shared with Talos. She and Skavir killed a guard for his gear and spears and were shoved into the arena against two displacer beasts. From the stands, Velkyn hurled Godsbane down to Kutada. Tian-Rui, in the crowd, placed the party\'s money on her.
+
+Talos appeared and spoke only to Kutada. Skavir stepped back. The god hammered her down again and again, and each time she stood. When he had finished, she scolded him for being less than he had promised to be, and drove Godsbane through his open mouth. Talos died. The Colosseum bookmakers lost heavily.
+
+Skavir turned toward the Merchant Guild lord. The lord\'s wizards moved to heal, and the man some called the king leapt down into the arena to fight.`,
+  },
+
+  {
+    slug: 'ash-over-aurelith',
+    title: 'Ash Over Aurelith',
+    date: 'September 16th, 2026',
+    teaser: 'The Would-Be King falls, and meteors fall on the capital.',
+    body: `The Court of Gold took the field: Cassian Crassis, the Would-Be King, wielding Excalibur and wearing the Armor of Midas, with his Advisor, three Court Sorcerers and wave after wave of Royal Guards. Skavir was dropped again and again. Tian-Rui cast Meteor Swarm into the Colosseum crowd and killed many. Crassis spent a golden feather to revive his Advisor, then fought in earnest to kill.
+
+Kutada drove the Lightning Lance into him, and Cassian Crassis died. The party claimed Excalibur and the Armor of Midas.
+
+More meteors then fell across the city, killing civilians who had no part in any of it. By some accounts the party had called them down. Aurelith was destroyed.`,
+  },
+
+  {
+    slug: 'unwitting-disciples',
+    title: 'Unwitting Disciples',
+    date: 'September 30th, 2026',
+    teaser: 'In the ruins, the party learns that the cult of Ah Puch admires the Godslayers.',
+    body: `The party returned to the ruins of Aurelith and looted half-emptied shops. Velkyn killed several angry survivors and called it duty. In the open the party argued. Skavir said the world had been changing underneath their crusade, and Tian-Rui admitted that being a hero had become boring.
+
+Kuxtal spotted followers of Ah Puch among the refugees, openly, without fear. Velkyn seized one. Under pressure the cultist admitted that the cult admired the Godslayers, because every dead god had left a wound that bled the suffering Ah Puch fed on: starving towns after Demeter, ruined gamblers after Talos, unfinished souls after Izanami.
+
+The party said it wished to join. The price of an audience was one innocent captive each, taken alive. Skavir refused to take part, so Tian-Rui took an extra captive. The cultist led them through the woods to a hollow tree.`,
+  },
+
+  {
+    slug: 'the-last-place-of-safety',
+    title: 'The Last Place of Safety (The Hollow Below, Part One)',
+    date: 'October 7th, 2026',
+    teaser: 'Five children, nine turns of root stair, and a ledger signed in blood.',
+    body: `The party took five children from the edge of a refugee camp. They descended nine turns of living-root stair, past an owl, bells and candles. At the bottom, a kind-eyed gatekeeper recorded the children\'s true names in a ledger, and each party member signed it in the blood of the child they had taken.
+
+In the Waiting Cells, clean straw, tin cups and blankets masked a cruelty. The children gave blood, and each party member smeared it across the lock of their child\'s cell, the child\'s final place of safety.
+
+In the Hall of the Wheel, the Warden, Oxlahun Kan, an older man in a plain robe holding an obsidian knife, announced the rite. The party persuaded him to wait a night so that dread could ripen. They slept in guest quarters carved into the roots.`,
+  },
+
+  {
+    slug: 'the-gallery-and-the-gray-robes',
+    title: 'The Gallery and the Gray Robes (The Hollow Below, Part Two)',
+    date: 'October 14th, 2026',
+    teaser: 'The cult keeps careful records, and the party clears the gray robes one by one.',
+    body: `The party decided to unravel the cult and to draw Ah Puch out by sacrificing the cultists themselves to complete the ritual. They spoke to the children and discovered that the locks on the cells were bound by a ritual that used the children\'s blood as an extra seal. Tian-Rui dispelled the wards. The children stayed in the cells for the time being, safer and out of the fighting.
+
+In the Gallery of Gifts the party found the cult\'s detailed record of suffering. Its accuracy surprised them, because history in this world is usually convoluted. The oldest record described a rumored civilization in the North Islands that had suffered a fate worse than death. The party captured the Overseer and killed everyone in gray robes.
+
+The chain tattoos on the cultists\' wrists glowed red, and any who were not wholly destroyed rose as undead, but the party kept clearing them and left none intact. At the Vigil they found three purple-robed cultists preparing the ritual and a head cultist in white robes with red lining. The session ended there.`,
+  },
+
+  {
+    slug: 'an-invitation-to-sit',
+    title: 'An Invitation to Sit (The Hollow Below, Part Three)',
+    date: 'October 21st, 2026',
+    teaser: 'A masked host, a long table, and an offer of peace for the price of more suffering.',
+    body: `The party entered the Hall of the Wheel and found the head cultist ready to begin. They made quick work of the cult leader, then completed the ritual using the cultists as their sacrifices. The result carried them to the domain of Ah Puch.
+
+He stood behind a mask at the end of a long table and bade them sit. Skavir, Tian-Rui and Kutada took their seats. Kuxtal and Velkyn hesitated and neither sat nor drank. Ah Puch offered a truce if the party would simply continue to cause suffering. The party started the fight, and the session ended as it began.`,
+  },
+
+  {
+    slug: 'the-quiet-host-falls',
+    title: 'The Quiet Host Falls (The Hollow Below, Part Four)',
+    date: 'October 28th, 2026',
+    teaser: 'The mask comes off, Tian-Rui is caught on the Wheel, and Kuxtal ends it.',
+    body: `The party wore Ah Puch down quickly and drove him into his second phase. His mask came off and they saw his real face: beneath it he had no skin and no flesh. His chains took Tian-Rui and dragged him to the Wheel, but everyone else escaped them. Skavir dealt significant damage.
+
+In the end Kuxtal raised Godsbane, told the God of Torture that he no longer controlled her nightmares, and cleaved his skull. Ah Puch turned to ash.
+
+The party left the cult base and traveled with a caravan to Necropolis, the town Tian-Rui is lord of. They ended the session long resting in the Manor of Tian-Rui.`,
+  },
 ];

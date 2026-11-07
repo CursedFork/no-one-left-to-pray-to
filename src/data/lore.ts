@@ -58,6 +58,11 @@ The great temples of Aurelith represent every major deity with a significant fol
 The undead horde from Session 4 was marching on Aurelith before the party intercepted it. The city's defenses would not have held.`,
   },
   {
+    id: 'necropolis',
+    heading: 'Necropolis',
+    body: `Necropolis is a town, and Tian-Rui is its lord. After the death of Ah Puch, the party traveled there with a caravan and rested in the Manor of Tian-Rui.`,
+  },
+  {
     id: 'religion',
     heading: 'Religion, Faith, and Factions',
     body: `Aethernox does not have a single religious tradition so much as a collection of religious ecosystems that coexist through varying combinations of tolerance, mutual avoidance, and the shared understanding that divine power is real enough that theological disputes have consequences.

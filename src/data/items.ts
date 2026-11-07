@@ -34,7 +34,7 @@ export const magicItems: MagicItem[] = [
     rarity: 'Artifact',
     attunement: true,
     attunementNote: 'Attunement requires 1 hour spent alone in darkness. At the end of that hour, make a DC 18 Wisdom saving throw or gain a long-term madness.',
-    description: 'A jagged blackened blade crossed by violet fractures that glow with inner light. The crimson edge is sharp in a way that feels deliberate — not forged, but willed into being. A baleful gem at the crossguard pulses like a dying heart. Cyric wielded this blade to kill Mystra, goddess of magic, and the Weave has been unraveling ever since. While attuned, you cannot serve any deity, and divine beings within 1 mile sense your presence. Turned against Cyric by Velkyn Kensek in the Domain of the Shattered Weave — the god\'s own blade became the instrument of his undoing. Claimed by the party after his death.',
+    description: 'A jagged blackened blade crossed by violet fractures that glow with inner light. The crimson edge is sharp in a way that feels deliberate — not forged, but willed into being. A baleful gem at the crossguard pulses like a dying heart. Cyric wielded this blade to kill Mystra, goddess of magic, and the Weave has been unraveling ever since. While attuned, you cannot serve any deity, and divine beings within 1 mile sense your presence. Turned against Cyric by Velkyn Kensek in the Domain of the Shattered Weave — the god\'s own blade became the instrument of his undoing. Claimed by the party after his death. It has killed twice more since: Kutada drove it through the open mouth of Talos in the Colosseum at Aurelith, and Kuxtal Tun cleaved the skull of Ah Puch with it.',
     properties: [
       '+3 weapon bonus to attack and damage rolls.',
       '+2d8 necrotic damage on all hits, ignoring necrotic resistance.',
@@ -43,6 +43,49 @@ export const magicItems: MagicItem[] = [
       'While attuned: You cannot serve any deity in any capacity. Divine beings of any alignment sense your presence within 1 mile.',
     ],
     image: '/images/items/godsbane.png',
+  },
+
+  {
+    slug: 'buster-sword',
+    name: 'Buster Sword',
+    type: 'Weapon (greatsword)',
+    rarity: 'Unrecorded',
+    attunement: false,
+    description: 'A greatsword commissioned by Velkyn Kensek from Garrik Ironvein of Ironvein Armaments in Aurelith. Ironvein delivered it finished, with two sockets cut into the flat of the blade. Velkyn seated a Fire Opal in the first, and the steel took on a red-orange cast, as if it had been left too long in the forge. It looks like ordinary steel until something is placed in it.',
+    properties: [
+      'Sockets: Two sockets are cut into the flat of the blade.',
+      'Fire Opal: A Fire Opal is seated in the first socket, turning the steel a red-orange cast.',
+    ],
+  },
+
+  {
+    slug: 'excalibur',
+    name: 'Excalibur',
+    type: 'Weapon',
+    rarity: 'Unrecorded',
+    attunement: false,
+    description: 'Wielded by Cassian Crassis, the Would-Be King and Lord of the Merchant Guild of Aurelith, when his Court of Gold took the field in the Colosseum. The party claimed it after Crassis died. Its powers and its current bearer have not yet been recorded.',
+    properties: [],
+  },
+
+  {
+    slug: 'armor-of-midas',
+    name: 'Armor of Midas',
+    type: 'Armor',
+    rarity: 'Unrecorded',
+    attunement: false,
+    description: 'Worn by Cassian Crassis, the Would-Be King of Aurelith, in his last battle in the Colosseum. The party claimed it after Crassis died. Its powers and its current bearer have not yet been recorded.',
+    properties: [],
+  },
+
+  {
+    slug: 'lightning-lance',
+    name: 'Lightning Lance',
+    type: 'Weapon (lance)',
+    rarity: 'Unrecorded',
+    attunement: false,
+    description: 'The weapon Kutada drove into Cassian Crassis to kill him, at the end of the Colosseum battle in Aurelith. Its powers and its current bearer have not yet been recorded.',
+    properties: [],
   },
 ];
 

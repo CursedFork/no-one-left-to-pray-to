@@ -20,7 +20,7 @@ export const characters: Character[] = [
       'Unreasonable anger at storms',
     ],
     portrait: '/images/characters/kutada.png',
-    unlocked: false,
+    unlocked: true,
     accentColor: '#4a5a6a',
     biography: `Kutada was born with violence in her blood — a truth her mother tried desperately to outrun. Her mother, a human arena fighter who had won her freedom through a decade of bloodshed, had hoped that settling in a quiet border town would be enough to give her half-orc daughter a different life. It wasn't. Kutada could feel the rage before she could name it: a live coal behind her sternum that flared whenever someone looked at her like she was lesser, whenever a storm rolled in off the mountains, whenever she was told to be still.
 
@@ -32,7 +32,11 @@ Talos found her during a lightning storm that killed six people in the valley wh
 
 She didn't take that as a divine calling so much as a challenge she couldn't turn down. Talos doesn't offer warmth or protection or meaning in the philosophical sense — Talos offers an answer to the question of what happens when you point all that fury in a direction worthy of it. For Kutada, that direction is upward. Thrones are not given; they are taken. She has decided to take one.
 
-The storms still make her furious. She suspects they always will. She suspects that's the point — a god of storms would want a champion who rages against the sky rather than cowering beneath it. She doesn't worship Talos so much as intend to surpass him. The difference between devotion and ambition has never interested her. Thrones are meant to be taken.`,
+The storms still make her furious. She suspects they always will. She suspects that's the point — a god of storms would want a champion who rages against the sky rather than cowering beneath it. She doesn't worship Talos so much as intend to surpass him. The difference between devotion and ambition has never interested her. Thrones are meant to be taken.
+
+Talos is dead. The party found him in the Colosseum at Aurelith, the arena that raised her, fighting challengers. In the cells beneath it she told them the history she shared with him. Then she and Skavir were shoved onto the sand against two displacer beasts, Velkyn threw Godsbane down to her from the stands, and Tian-Rui put the party's money on her. Talos spoke only to Kutada. He hammered her down again and again, and each time she stood back up. When he was finished, she told him he had been less than he promised to be, and she drove Godsbane through his open mouth. Talos died, and the Colosseum bookmakers lost heavily.
+
+She did not stop there. When Cassian Crassis, the Would-Be King of Aurelith, took the field in Excalibur and the Armor of Midas, it was Kutada who drove the Lightning Lance into him. Whether she has claimed Talos's throne, or whether there is a throne left to claim, is not something she has said. The murder charge from the tavern in Aurelith is still waiting for her, though the city that would have prosecuted it is rubble now.`,
   },
 
   {
@@ -53,7 +57,7 @@ The storms still make her furious. She suspects they always will. She suspects t
       'Relentless need to prove strength',
     ],
     portrait: '/images/characters/kuxtal-tun.png',
-    unlocked: false,
+    unlocked: true,
     accentColor: '#7a2020',
     biography: `Kuxtal Tun grew up in a small elven village far from the political centers of the world — the kind of place where gossip travels faster than news and the worst thing that had happened in living memory was a bad harvest. She was known for her quick laugh and her inability to walk past a card game without sitting down. The gambling was a joke then. Later it would be one of the few anchors she had left.
 
@@ -67,7 +71,11 @@ The gambling bar where she met Velkyn Kensek was not memorable in any particular
 
 The cult raid went sideways. The relationship that formed in the aftermath of near-death did not. Kuxtal and Velkyn have a history now, which is not the same as an easy relationship. Kuxtal is reckless in ways that alarm even people used to recklessness. She picks fights with things larger than she is and calls it assessment. She doubles down when a sensible person would walk away. The gambling never really stopped — it just changed tables.
 
-What drives her now is not revenge in the clean sense. It is more accurate to say she carries something inside that needs somewhere to go, a weight of accumulated suffering that has no release except forward motion. She intends to find the god behind the cult's theology, the divine presence that gave the torturers their justification, and end that justification at its source. She suspects this will not actually fix what is broken in her. She intends to do it anyway.`,
+What drives her now is not revenge in the clean sense. It is more accurate to say she carries something inside that needs somewhere to go, a weight of accumulated suffering that has no release except forward motion. She intends to find the god behind the cult's theology, the divine presence that gave the torturers their justification, and end that justification at its source. She suspects this will not actually fix what is broken in her. She intends to do it anyway.
+
+Ah Puch is dead. The road there began in Aurelith, where she saw a man with a silver chain necklace and chain-link tattoos around his wrists, and her composure failed completely until Velkyn brought her back. She could not say where her dungeon had been, how close she and Velkyn had once been, or even the name of her own god, but she was the one who found a book on Ah Puch in the library. The party followed his cult to a hollow tree and, through its ritual, to his domain. He sat behind a mask at the end of a long table and offered a truce if the party would simply keep causing suffering. Kuxtal neither sat nor drank. When the mask came off and the fight turned, she raised Godsbane, told the God of Torture that he no longer controlled her nightmares, and cleaved his skull. He turned to ash.
+
+Whether any of her memories have come back, and whether the nightmares have actually gone quiet, has not been recorded. The cult he left behind has not gone anywhere.`,
   },
 
   {

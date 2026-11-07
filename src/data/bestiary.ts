@@ -271,4 +271,44 @@ export const bestiary: BestiaryEntry[] = [
     quote: '"You call it cruelty. I call it arithmetic. Nature does not forgive an unpaid debt, and I am the only one honest enough to collect it before the famine collects for itself."',
     notes: "CR 30. Immune to poison; resists cold and necrotic and nonmagical bludgeoning/piercing/slashing; immune to charmed, exhaustion, frightened, poisoned. Withering (her signature condition) is cumulative: 1 — disadvantage on ability checks; 2 — speed halved; 3 — disadvantage on attacks and saves; 4 — can't regain HP; 5 — extra 10 necrotic on damage taken; 6 — withers to dust and dies. A long rest reduces it by one level; Lesser Restoration removes one level. Bloodied Phase (Fallow Winter, at or below 330 HP): poison damage becomes necrotic and ignores resistance, Divine Weapons damage rises to 27 (6d8), and she gains an additional legendary action per round. Lair actions available: Collapsing Home, The Graves Open, Blossoms of Blight. Three churches raised in her name were known before her death: one in Aurelith, one in the western region, one in the north — the latter two remain unresolved. Homebrew.",
   },
+
+  {
+    slug: 'talos',
+    name: 'Talos',
+    role: 'God of Storms and Destruction',
+    tags: ['Divine', 'Boss', 'Encountered', 'Slain'],
+    status: 'Slain',
+    description: "A storm god who had grown restless and hungry for a worthy challenger. He came to Aurelith and fought challengers in the Colosseum, the same arena that raised Kutada, his own champion. He spoke only to her. He hammered her down again and again and she stood up every time. When he was done, she scolded him for being less than he had promised to be, and drove Godsbane through his open mouth. Killed by Kutada in the Colosseum of Aurelith. The Colosseum bookmakers lost heavily.",
+    notes: 'The fifth god to fall to the party, and Kutada\'s own patron. Tian-Rui had placed the party\'s money on her.',
+  },
+
+  {
+    slug: 'cassian-crassis',
+    name: 'Cassian Crassis',
+    role: 'The Would-Be King, Lord of the Merchant Guild of Aurelith',
+    tags: ['Mortal', 'Boss', 'Encountered', 'Slain'],
+    status: 'Slain',
+    description: "Lord of the Merchant Guild of Aurelith, the same Lord Crassis who rewarded the party after the horde was turned, and who some in the city had begun to call a king. He took the field at the head of the Court of Gold, wielding Excalibur and wearing the Armor of Midas, with his Advisor, three Court Sorcerers and wave after wave of Royal Guards. Skavir was dropped again and again. Crassis spent a golden feather to revive his Advisor, then fought in earnest to kill. Killed by Kutada, who drove the Lightning Lance into him. The party claimed Excalibur and the Armor of Midas.",
+    notes: 'Met in the Colosseum of Aurelith, where he leapt down into the arena after Talos fell. Aurelith was destroyed in the same battle.',
+  },
+
+  {
+    slug: 'ah-puch',
+    name: 'Ah Puch',
+    role: 'God of Torture and Untimely Death',
+    tags: ['Divine', 'Boss', 'Encountered', 'Slain'],
+    status: 'Slain',
+    description: "The god behind the cult that tortured Kuxtal Tun. The party reached his domain through his cult's own ritual, finishing it with the cultists as the sacrifice. He received them as guests at the end of a long table, behind a mask, and invited them to sit. He offered a truce if the party would simply keep causing suffering. The party struck first. When the mask came off, beneath it he had no skin and no flesh. His chains caught Tian-Rui and dragged him to the Wheel. Killed by Kuxtal with Godsbane. She told the God of Torture that he no longer controlled her nightmares, and cleaved his skull. He turned to ash.",
+    notes: 'The sixth god to fall to the party. His cult kept a base inside a hollow tree, and a second hideout beneath a grate in Aurelith has not been dealt with.',
+  },
+
+  {
+    slug: 'cult-of-ah-puch',
+    name: 'Cultists of Ah Puch',
+    role: 'The Hollow Below',
+    tags: ['Mortal', 'Undead', 'Encountered', 'Slain'],
+    status: 'Slain',
+    description: "The cult that kept a base in a hollow tree outside Aurelith, marked by chain-link tattoos around the wrist. Its members wore gray robes, and its leaders wore purple and white with red lining. The party killed everyone in gray robes. The chain tattoos glowed red, and any cultist not wholly destroyed rose as undead, so the party kept clearing them until none were left intact. They killed the head cultist quickly, then used the remaining cultists as the sacrifice to complete the ritual that carried them to Ah Puch.",
+    notes: 'The cult base is cleared, but followers of Ah Puch were also seen openly among the refugees of Aurelith, and a second hideout beneath a grate in the Temple District has not been dealt with. The Warden, Oxlahun Kan, and the captured Overseer are not recorded as dead.',
+  },
 ];
