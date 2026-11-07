@@ -28,7 +28,7 @@ export interface Session {
   featuredImage?: string;
 }
 
-export type BestiaryStatus = 'Slain' | 'Active' | 'Bargained With' | 'Erased' | 'Destroyed';
+export type BestiaryStatus = 'Slain' | 'Active' | 'Bargained With' | 'Erased' | 'Destroyed' | 'Unknown';
 
 export interface BestiaryStats {
   hp?: number | string;

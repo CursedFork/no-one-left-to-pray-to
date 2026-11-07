@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
 import Divider from '../components/Divider';
 import ItemCard from '../components/ItemCard';
-import { magicItems, consumables, homebrewRules } from '../data/items';
+import { magicItems, consumables, homebrewRules, gemTiers, economyRules, customMechanics } from '../data/items';
+import type { ConsumableGroup } from '../types';
 
 export default function Items() {
   useEffect(() => {
@@ -54,36 +55,7 @@ export default function Items() {
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {consumables.map(group => (
-            <div
-              key={group.title}
-              className="bg-bg-panel border border-accent-gold/20 rounded-sm p-6"
-              style={{ boxShadow: '0 2px 12px rgba(26,20,16,0.4)' }}
-            >
-              <h3
-                className="text-sm font-bold text-parchment tracking-wide mb-4 pb-3 border-b border-accent-gold/15"
-                style={{ fontFamily: "'Cinzel', Georgia, serif" }}
-              >
-                {group.title}
-              </h3>
-              <ul className="space-y-3">
-                {group.items.map(item => (
-                  <li key={item.name} className="flex gap-3">
-                    <span
-                      className="font-semibold italic text-parchment-dark flex-shrink-0"
-                      style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: '1rem', minWidth: '120px' }}
-                    >
-                      {item.name}
-                    </span>
-                    <span
-                      className="text-parchment-dark/60"
-                      style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: '0.95rem' }}
-                    >
-                      {item.description}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <ResourceGroupCard key={group.title} group={group} />
           ))}
 
           {/* Homebrew rules */}
@@ -98,7 +70,7 @@ export default function Items() {
               Homebrew Rules
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              {homebrewRules.map(rule => (
+              {[...homebrewRules, ...economyRules].map(rule => (
                 <div key={rule.title}>
                   <h4
                     className="font-bold italic text-parchment-dark mb-2"
@@ -118,6 +90,91 @@ export default function Items() {
           </div>
         </div>
       </section>
+
+      <Divider />
+
+      {/* Materia & Gems */}
+      <section className="mb-16">
+        <h2
+          className="text-lg font-bold text-accent-gold tracking-widest uppercase mb-6"
+          style={{ fontFamily: "'Cinzel', Georgia, serif" }}
+        >
+          Materia and Gems
+        </h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {gemTiers.map(group => (
+            <ResourceGroupCard key={group.title} group={group} />
+          ))}
+        </div>
+      </section>
+
+      <Divider />
+
+      {/* Custom mechanics */}
+      <section className="mb-10">
+        <h2
+          className="text-lg font-bold text-accent-gold tracking-widest uppercase mb-6"
+          style={{ fontFamily: "'Cinzel', Georgia, serif" }}
+        >
+          Custom Conditions and Mechanics
+        </h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {customMechanics.map(rule => (
+            <div
+              key={rule.title}
+              className="bg-bg-panel border border-accent-gold/20 rounded-sm p-6"
+              style={{ boxShadow: '0 2px 12px rgba(26,20,16,0.4)' }}
+            >
+              <h3
+                className="text-sm font-bold text-parchment tracking-wide mb-4 pb-3 border-b border-accent-gold/15"
+                style={{ fontFamily: "'Cinzel', Georgia, serif" }}
+              >
+                {rule.title}
+              </h3>
+              <p
+                className="text-parchment-dark/60 text-sm leading-relaxed"
+                style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
+              >
+                {rule.description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  );
+}
+
+function ResourceGroupCard({ group }: { group: ConsumableGroup }) {
+  return (
+    <div
+      className="bg-bg-panel border border-accent-gold/20 rounded-sm p-6"
+      style={{ boxShadow: '0 2px 12px rgba(26,20,16,0.4)' }}
+    >
+      <h3
+        className="text-sm font-bold text-parchment tracking-wide mb-4 pb-3 border-b border-accent-gold/15"
+        style={{ fontFamily: "'Cinzel', Georgia, serif" }}
+      >
+        {group.title}
+      </h3>
+      <ul className="space-y-3">
+        {group.items.map(item => (
+          <li key={item.name} className="flex gap-3">
+            <span
+              className="font-semibold italic text-parchment-dark flex-shrink-0"
+              style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: '1rem', minWidth: '120px' }}
+            >
+              {item.name}
+            </span>
+            <span
+              className="text-parchment-dark/60"
+              style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: '0.95rem' }}
+            >
+              {item.description}
+            </span>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
